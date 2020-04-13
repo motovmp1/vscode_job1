@@ -9,7 +9,9 @@ Test Setup          log to console      login to application
 # executed every time after test case (every time)
 Test Teardown       Log to console     logout from application
 
-
+Documentation  Simple example using SeleniumLibrary
+Library  Selenium2Library
+Library     OperatingSystem
 
 *** Variables ***
 
@@ -33,7 +35,7 @@ TC4 advanced search
 
     Log To console      this is a search adv case
 
-    
+
 
 
 *** Keywords ***
