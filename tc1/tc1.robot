@@ -3,7 +3,7 @@ Documentation  Simple example using SeleniumLibrary
 Library  Selenium2Library
 Library     OperatingSystem
 
-# teste comment
+
 
 *** Variables ***
 ${browser}  Firefox
