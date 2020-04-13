@@ -1,0 +1,87 @@
+1586236051695	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUgGu5T"
+
+(firefox:9160): Gtk-WARNING **: 13:07:31.972: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+
+(/usr/lib/firefox/firefox:9211): Gtk-WARNING **: 13:07:37.249: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1586236061660	Marionette	INFO	Listening on port 40205
+1586236061720	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586236104018	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileALZIaz"
+
+(firefox:9354): Gtk-WARNING **: 13:08:24.109: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+
+(/usr/lib/firefox/firefox:9405): Gtk-WARNING **: 13:08:26.499: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1586236108786	Marionette	INFO	Listening on port 45593
+1586236108830	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586237084856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYjybyr"
+
+(firefox:11060): Gtk-WARNING **: 13:24:44.933: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+
+(/usr/lib/firefox/firefox:11111): Gtk-WARNING **: 13:24:47.374: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1586237090064	Marionette	INFO	Listening on port 41865
+1586237090070	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586237199454	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejwzYBI"
+
+(firefox:11538): Gtk-WARNING **: 13:26:39.534: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+
+(/usr/lib/firefox/firefox:11586): Gtk-WARNING **: 13:26:42.028: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1586237204408	Marionette	INFO	Listening on port 41459
+1586237204475	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586237246088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuuq8p7"
+
+(firefox:11936): Gtk-WARNING **: 13:27:26.179: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+
+(/usr/lib/firefox/firefox:11985): Gtk-WARNING **: 13:27:29.738: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1586237252121	Marionette	INFO	Listening on port 44201
+1586237252207	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586237292458	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGBp0tB"
+
+(firefox:12116): Gtk-WARNING **: 13:28:12.531: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+
+(/usr/lib/firefox/firefox:12168): Gtk-WARNING **: 13:28:15.164: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1586237297748	Marionette	INFO	Listening on port 37323
+1586237297777	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586237365084	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUr197j"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586237369985	Marionette	INFO	Listening on port 38115
+1586237370007	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586237441361	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2z4Udh"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586237446329	Marionette	INFO	Listening on port 41445
+1586237446376	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:13048): dconf-WARNING **: 13:31:15.092: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586237499587	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3h4w9D"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586237504750	Marionette	INFO	Listening on port 43409
+1586237504801	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:13251): dconf-WARNING **: 13:32:17.417: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586239652061	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewlrAee"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586239657531	Marionette	INFO	Listening on port 40289
+1586239657594	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16679): dconf-WARNING **: 14:07:58.827: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586239784404	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMXNwUY"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586239789259	Marionette	INFO	Listening on port 45427
+1586239789325	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16994): dconf-WARNING **: 14:10:08.461: Unable to open /var/lib/flatpak/exports/share/dconf/profile/user: Permission denied
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

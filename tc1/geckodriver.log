@@ -1,0 +1,76 @@
+1586222649454	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqwOsVv"
+
+(firefox:29035): Gtk-WARNING **: 09:24:09.756: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+
+(/usr/lib/firefox/firefox:29096): Gtk-WARNING **: 09:24:14.632: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1586222660272	Marionette	INFO	Listening on port 39699
+1586222660387	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/common/cookiemanager/cookiemanager.js
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/designer/social/share/social.share.js
+1586222813364	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebIvbSU"
+
+(firefox:30171): Gtk-WARNING **: 09:26:53.441: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+
+(/usr/lib/firefox/firefox:30222): Gtk-WARNING **: 09:26:55.879: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1586222818235	Marionette	INFO	Listening on port 42751
+1586222818285	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/common/cookiemanager/cookiemanager.js
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/designer/social/share/social.share.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586225492844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTPtpT5"
+
+(firefox:5543): Gtk-WARNING **: 10:11:32.916: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+
+(/usr/lib/firefox/firefox:5609): Gtk-WARNING **: 10:11:35.402: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1586225498200	Marionette	INFO	Listening on port 33301
+1586225498271	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/common/cookiemanager/cookiemanager.js
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/designer/social/share/social.share.js
+1586747561990	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWHREvf"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586747572965	Marionette	INFO	Listening on port 36491
+1586747573049	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/common/cookiemanager/cookiemanager.js
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/designer/social/share/social.share.js
+1586747657928	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileibi8jk"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586747663450	Marionette	INFO	Listening on port 38771
+1586747663546	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/designer/social/share/social.share.js
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/common/cookiemanager/cookiemanager.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586748639003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile96YM9a"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586748644035	Marionette	INFO	Listening on port 46781
+1586748644119	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/common/cookiemanager/cookiemanager.js
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/designer/social/share/social.share.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586748712327	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevtrRm5"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586748717343	Marionette	INFO	Listening on port 38155
+1586748717439	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/designer/social/share/social.share.js
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/designer/iebackground/iebackground.js
+1586748923464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenyGAZM"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586748928672	Marionette	INFO	Listening on port 42323
+1586748928693	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/designer/social/share/social.share.js
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/common/cookiemanager/cookiemanager.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586753852449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewwHq2u"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586753858631	Marionette	INFO	Listening on port 35407
+1586753858673	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1586753910644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRIpv4g"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/addonsInfo.js, line 91: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1586753915799	Marionette	INFO	Listening on port 34277
+1586753915856	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/common/cookiemanager/cookiemanager.js
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/designer/social/share/social.share.js
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

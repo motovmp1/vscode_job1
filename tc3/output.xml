@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.6.5 on linux)" generated="20200407 15:05:16.439" rpa="false">
+<suite id="s1" name="Resource Files" source="/home/elsys/Documents/VSCODE/Robot/tc3/resource_files.robot">
+<test id="s1-t1" name="LoginTest">
+<kw name="launcher_browser_application" library="resources">
+<arguments>
+<arg>${browser}</arg>
+<arg>${URL}</arg>
+</arguments>
+<assign>
+<var>${page_title}</var>
+</assign>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].common.desired_capabilities.DesiredCapabilities.FIREFOX</arg>
+<arg>sys,selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${ff default caps}</var>
+</assign>
+<msg timestamp="20200407 15:05:16.579" level="INFO">${ff default caps} = {'browserName': 'firefox', 'marionette': True, 'acceptInsecureCerts': True}</msg>
+<status status="PASS" starttime="20200407 15:05:16.579" endtime="20200407 15:05:16.579"></status>
+</kw>
+<kw name="Create Webdriver" library="Selenium2Library">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>${appbrowser}</arg>
+<arg>executable_path=/home/elsys/PycharmProjects/robot_framework/TestCase/geckodriver</arg>
+</arguments>
+<msg timestamp="20200407 15:05:16.579" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<status status="PASS" starttime="20200407 15:05:16.579" endtime="20200407 15:05:21.556"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>${appurl}</arg>
+</arguments>
+<msg timestamp="20200407 15:05:21.557" level="INFO">Opening url 'http://newtours.demoaut.com/'</msg>
+<status status="PASS" starttime="20200407 15:05:21.556" endtime="20200407 15:05:25.444"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20200407 15:05:28.445" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200407 15:05:25.445" endtime="20200407 15:05:28.445"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200407 15:05:28.445" endtime="20200407 15:05:31.958"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200407 15:05:32.959" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200407 15:05:31.958" endtime="20200407 15:05:32.959"></status>
+</kw>
+<kw name="Get Title" library="Selenium2Library">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${title}</var>
+</assign>
+<msg timestamp="20200407 15:05:32.962" level="INFO">${title} = Welcome: Mercury Tours</msg>
+<status status="PASS" starttime="20200407 15:05:32.959" endtime="20200407 15:05:32.962"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${title}</arg>
+</arguments>
+<status status="PASS" starttime="20200407 15:05:32.962" endtime="20200407 15:05:32.962"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${title}</arg>
+</arguments>
+<msg timestamp="20200407 15:05:32.963" level="INFO">Welcome: Mercury Tours</msg>
+<status status="PASS" starttime="20200407 15:05:32.963" endtime="20200407 15:05:32.963"></status>
+</kw>
+<msg timestamp="20200407 15:05:32.963" level="INFO">${page_title} = Welcome: Mercury Tours</msg>
+<status status="PASS" starttime="20200407 15:05:16.578" endtime="20200407 15:05:32.963"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200407 15:05:32.963" endtime="20200407 15:05:36.469"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<status status="PASS" starttime="20200407 15:05:36.469" endtime="20200407 15:05:36.469"></status>
+</kw>
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>Welcome: Mercury Tours</arg>
+</arguments>
+<msg timestamp="20200407 15:05:38.474" level="INFO">Page title is 'Welcome: Mercury Tours'.</msg>
+<status status="PASS" starttime="20200407 15:05:36.469" endtime="20200407 15:05:38.474"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${page_title}</arg>
+</arguments>
+<status status="PASS" starttime="20200407 15:05:38.475" endtime="20200407 15:05:38.475"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:userName</arg>
+<arg>mercury</arg>
+</arguments>
+<msg timestamp="20200407 15:05:38.476" level="INFO">Typing text 'mercury' into text field 'name:userName'.</msg>
+<status status="PASS" starttime="20200407 15:05:38.475" endtime="20200407 15:05:44.515"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200407 15:05:45.516" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200407 15:05:44.515" endtime="20200407 15:05:45.516"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:password</arg>
+<arg>mercury</arg>
+</arguments>
+<msg timestamp="20200407 15:05:45.517" level="INFO">Typing text 'mercury' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20200407 15:05:45.516" endtime="20200407 15:05:51.548"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200407 15:05:52.549" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200407 15:05:51.549" endtime="20200407 15:05:52.549"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20200407 15:05:55.550" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200407 15:05:52.550" endtime="20200407 15:05:55.550"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200407 15:05:55.550" endtime="20200407 15:05:58.556"></status>
+</kw>
+<status status="PASS" starttime="20200407 15:05:16.578" endtime="20200407 15:05:58.557" critical="yes"></status>
+</test>
+<doc>Simple example using SeleniumLibrary</doc>
+<status status="PASS" starttime="20200407 15:05:16.439" endtime="20200407 15:05:58.558"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Resource Files">Resource Files</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

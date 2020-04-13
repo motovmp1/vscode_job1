@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.6.5 on linux)" generated="20200410 09:27:37.707" rpa="false">
+<suite id="s1" name="Handle Webtable" source="/home/elsys/Documents/VSCODE/Robot/tc7/handle_webtable.robot">
+<test id="s1-t1" name="Open and Get Title">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].common.desired_capabilities.DesiredCapabilities.FIREFOX</arg>
+<arg>sys,selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${ff default caps}</var>
+</assign>
+<msg timestamp="20200410 09:27:37.879" level="INFO">${ff default caps} = {'browserName': 'firefox', 'marionette': True, 'acceptInsecureCerts': True}</msg>
+<status status="PASS" starttime="20200410 09:27:37.878" endtime="20200410 09:27:37.879"></status>
+</kw>
+<kw name="Create Webdriver" library="Selenium2Library">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>${browser}</arg>
+<arg>executable_path=/home/elsys/PycharmProjects/robot_framework/TestCase/geckodriver</arg>
+</arguments>
+<msg timestamp="20200410 09:27:37.880" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<status status="PASS" starttime="20200410 09:27:37.879" endtime="20200410 09:27:44.484"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200410 09:27:44.485" level="INFO">Opening url 'http://testautomationpractice.blogspot.com/'</msg>
+<status status="PASS" starttime="20200410 09:27:44.484" endtime="20200410 09:27:52.246"></status>
+</kw>
+<kw name="optionbrowser_application">
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200410 09:27:52.249" endtime="20200410 09:27:55.828"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.5s</arg>
+</arguments>
+<status status="PASS" starttime="20200410 09:27:55.828" endtime="20200410 09:27:55.828"></status>
+</kw>
+<kw name="Get Title" library="Selenium2Library">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${page_tile}</var>
+</assign>
+<msg timestamp="20200410 09:27:56.336" level="INFO">${page_tile} = Automation Testing Practice</msg>
+<status status="PASS" starttime="20200410 09:27:55.828" endtime="20200410 09:27:56.336"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${page_tile}</arg>
+</arguments>
+<msg timestamp="20200410 09:27:56.337" level="INFO">Automation Testing Practice</msg>
+<status status="PASS" starttime="20200410 09:27:56.336" endtime="20200410 09:27:56.337"></status>
+</kw>
+<status status="PASS" starttime="20200410 09:27:52.248" endtime="20200410 09:27:56.337"></status>
+</kw>
+<status status="PASS" starttime="20200410 09:27:37.877" endtime="20200410 09:27:56.337" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Text, Testing Radio buttons, check boxes">
+<kw name="testingradio_application">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200410 09:28:01.341" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200410 09:27:56.341" endtime="20200410 09:28:01.342"></status>
+</kw>
+<kw name="Get Element Count" library="Selenium2Library">
+<doc>Returns number of elements matching ``locator``.</doc>
+<arguments>
+<arg>xpath://table[@name='BookTable']/tbody/tr</arg>
+</arguments>
+<assign>
+<var>${Elementstable}</var>
+</assign>
+<msg timestamp="20200410 09:28:01.856" level="INFO">${Elementstable} = 7</msg>
+<status status="PASS" starttime="20200410 09:28:01.342" endtime="20200410 09:28:01.856"></status>
+</kw>
+<kw name="Get Element Count" library="Selenium2Library">
+<doc>Returns number of elements matching ``locator``.</doc>
+<arguments>
+<arg>xpath://table[@name='BookTable']/tbody/tr[1]/th</arg>
+</arguments>
+<assign>
+<var>${clos}</var>
+</assign>
+<msg timestamp="20200410 09:28:02.374" level="INFO">${clos} = 4</msg>
+<status status="PASS" starttime="20200410 09:28:01.857" endtime="20200410 09:28:02.374"></status>
+</kw>
+<kw name="Get Text" library="Selenium2Library">
+<doc>Returns the text value of element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://table[@name='BookTable']/tbody/tr[5]/td[1]</arg>
+</arguments>
+<assign>
+<var>${gettablevalue}</var>
+</assign>
+<msg timestamp="20200410 09:28:03.398" level="INFO">${gettablevalue} = Master In Selenium</msg>
+<status status="PASS" starttime="20200410 09:28:02.374" endtime="20200410 09:28:03.398"></status>
+</kw>
+<kw name="Table Column Should Contain" library="Selenium2Library">
+<doc>Verifies table column contains text ``expected``.</doc>
+<arguments>
+<arg>xpath://table[@name='BookTable']</arg>
+<arg>2</arg>
+<arg>Author</arg>
+</arguments>
+<status status="PASS" starttime="20200410 09:28:03.398" endtime="20200410 09:28:05.432"></status>
+</kw>
+<kw name="Table Row Should Contain" library="Selenium2Library">
+<doc>Verifies that table row contains text ``expected``.</doc>
+<arguments>
+<arg>xpath://table[@name='BookTable']</arg>
+<arg>4</arg>
+<arg>Learn JS</arg>
+</arguments>
+<status status="PASS" starttime="20200410 09:28:05.432" endtime="20200410 09:28:07.496"></status>
+</kw>
+<kw name="Table Cell Should Contain" library="Selenium2Library">
+<doc>Verifies table cell contains text ``expected``.</doc>
+<arguments>
+<arg>xpath://table[@name='BookTable']</arg>
+<arg>5</arg>
+<arg>2</arg>
+<arg>Mukesh</arg>
+</arguments>
+<msg timestamp="20200410 09:28:10.533" level="INFO">Table cell contains 'Mukesh'.</msg>
+<status status="PASS" starttime="20200410 09:28:07.496" endtime="20200410 09:28:10.533"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Table size count: ${Elementstable}</arg>
+</arguments>
+<status status="PASS" starttime="20200410 09:28:10.533" endtime="20200410 09:28:10.534"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>number of collums: ${clos}</arg>
+</arguments>
+<status status="PASS" starttime="20200410 09:28:10.534" endtime="20200410 09:28:10.534"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>value inside the colum is: ${gettablevalue}</arg>
+</arguments>
+<status status="PASS" starttime="20200410 09:28:10.534" endtime="20200410 09:28:10.534"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${gettablevalue}</arg>
+</arguments>
+<msg timestamp="20200410 09:28:10.535" level="INFO">Master In Selenium</msg>
+<status status="PASS" starttime="20200410 09:28:10.534" endtime="20200410 09:28:10.535"></status>
+</kw>
+<status status="PASS" starttime="20200410 09:27:56.340" endtime="20200410 09:28:10.535"></status>
+</kw>
+<status status="PASS" starttime="20200410 09:27:56.339" endtime="20200410 09:28:10.535" critical="yes"></status>
+</test>
+<test id="s1-t3" name="check Bookname">
+<kw name="checktableheaderBook_applciation">
+<kw name="Table Header Should Contain" library="Selenium2Library">
+<doc>Verifies table header contains text ``expected``.</doc>
+<arguments>
+<arg>xpath://table[@name='BookTable']</arg>
+<arg>BookName</arg>
+</arguments>
+<status status="PASS" starttime="20200410 09:28:10.536" endtime="20200410 09:28:12.566"></status>
+</kw>
+<status status="PASS" starttime="20200410 09:28:10.536" endtime="20200410 09:28:12.566"></status>
+</kw>
+<status status="PASS" starttime="20200410 09:28:10.536" endtime="20200410 09:28:12.567" critical="yes"></status>
+</test>
+<test id="s1-t4" name="Check Author">
+<kw name="checktableheaderAuthor_application">
+<kw name="Table Header Should Contain" library="Selenium2Library">
+<doc>Verifies table header contains text ``expected``.</doc>
+<arguments>
+<arg>xpath://table[@name='BookTable']</arg>
+<arg>Author</arg>
+</arguments>
+<status status="PASS" starttime="20200410 09:28:12.568" endtime="20200410 09:28:15.621"></status>
+</kw>
+<status status="PASS" starttime="20200410 09:28:12.568" endtime="20200410 09:28:15.621"></status>
+</kw>
+<status status="PASS" starttime="20200410 09:28:12.567" endtime="20200410 09:28:15.621" critical="yes"></status>
+</test>
+<test id="s1-t5" name="close browser Now">
+<kw name="closebrowser_application">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>4S</arg>
+</arguments>
+<msg timestamp="20200410 09:28:19.624" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20200410 09:28:15.624" endtime="20200410 09:28:19.624"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200410 09:28:19.624" endtime="20200410 09:28:21.333"></status>
+</kw>
+<status status="PASS" starttime="20200410 09:28:15.623" endtime="20200410 09:28:21.333"></status>
+</kw>
+<status status="PASS" starttime="20200410 09:28:15.622" endtime="20200410 09:28:21.334" critical="yes"></status>
+</test>
+<doc>Simple example using SeleniumLibrary</doc>
+<status status="PASS" starttime="20200410 09:27:37.708" endtime="20200410 09:28:21.335"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0">Critical Tests</stat>
+<stat pass="5" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" fail="0" id="s1" name="Handle Webtable">Handle Webtable</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

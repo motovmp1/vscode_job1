@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.6.5 on linux)" generated="20200409 11:25:15.518" rpa="false">
+<suite id="s1" name="For Loop" source="/home/elsys/Documents/VSCODE/Robot/tc5/for_loop.robot">
+<test id="s1-t1" name="For-Loop-Exiting">
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>Good Element 1</arg>
+<arg>ciba</arg>
+<arg>Good Element 2</arg>
+</arguments>
+<assign>
+<var>@{ITEMS}</var>
+</assign>
+<msg timestamp="20200409 11:25:15.538" level="INFO">@{ITEMS} = [ Good Element 1 | ciba | Good Element 2 ]</msg>
+<status status="PASS" starttime="20200409 11:25:15.538" endtime="20200409 11:25:15.539"></status>
+</kw>
+<kw name="${ELEMENT} IN [ @{ITEMS} ]" type="for">
+<kw name="${ELEMENT} = Good Element 1" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${ELEMENT}</arg>
+</arguments>
+<msg timestamp="20200409 11:25:15.539" level="INFO">Good Element 1</msg>
+<status status="PASS" starttime="20200409 11:25:15.539" endtime="20200409 11:25:15.539"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${ELEMENT}</arg>
+</arguments>
+<status status="PASS" starttime="20200409 11:25:15.539" endtime="20200409 11:25:15.539"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${ELEMENT}' == 'ciba'</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" starttime="20200409 11:25:15.539" endtime="20200409 11:25:15.540"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Do more actions here ...</arg>
+</arguments>
+<msg timestamp="20200409 11:25:15.540" level="INFO">Do more actions here ...</msg>
+<status status="PASS" starttime="20200409 11:25:15.540" endtime="20200409 11:25:15.540"></status>
+</kw>
+<status status="PASS" starttime="20200409 11:25:15.539" endtime="20200409 11:25:15.540"></status>
+</kw>
+<kw name="${ELEMENT} = ciba" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${ELEMENT}</arg>
+</arguments>
+<msg timestamp="20200409 11:25:15.540" level="INFO">ciba</msg>
+<status status="PASS" starttime="20200409 11:25:15.540" endtime="20200409 11:25:15.540"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${ELEMENT}</arg>
+</arguments>
+<status status="PASS" starttime="20200409 11:25:15.540" endtime="20200409 11:25:15.541"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${ELEMENT}' == 'ciba'</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<kw name="Exit For Loop" library="BuiltIn">
+<doc>Stops executing the enclosing for loop.</doc>
+<msg timestamp="20200409 11:25:15.541" level="INFO">Exiting for loop altogether.</msg>
+<status status="PASS" starttime="20200409 11:25:15.541" endtime="20200409 11:25:15.541"></status>
+</kw>
+<status status="PASS" starttime="20200409 11:25:15.541" endtime="20200409 11:25:15.541"></status>
+</kw>
+<status status="PASS" starttime="20200409 11:25:15.540" endtime="20200409 11:25:15.541"></status>
+</kw>
+<status status="PASS" starttime="20200409 11:25:15.539" endtime="20200409 11:25:15.541"></status>
+</kw>
+<status status="PASS" starttime="20200409 11:25:15.538" endtime="20200409 11:25:15.541" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200409 11:25:15.519" endtime="20200409 11:25:15.542"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="For Loop">For Loop</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
