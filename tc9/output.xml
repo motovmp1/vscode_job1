@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.6.5 on linux)" generated="20200413 13:00:18.613" rpa="false">
-<suite id="s1" name="Teardo Setu" source="/home/elsys/Documents/VSCODE/Robot/tc9/teardo_setu.robot">
+<robot generator="Robot 3.1.2 (Python 3.6.5 on linux)" generated="20200413 13:26:49.904" rpa="false">
+<suite id="s1" name="Teardo Setu" source="/home/elsys/Documents/VSCODE/clone_job_01/vscode_job/tc9/teardo_setu.robot">
 <kw name="Log To Console" library="BuiltIn" type="setup">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Opening Browser</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.640" endtime="20200413 13:00:18.640"></status>
+<status status="PASS" starttime="20200413 13:26:49.924" endtime="20200413 13:26:49.924"></status>
 </kw>
 <test id="s1-t1" name="TC1 prepaid recharge">
 <kw name="Log To Console" library="BuiltIn" type="setup">
@@ -14,23 +14,23 @@
 <arguments>
 <arg>login to application</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.640" endtime="20200413 13:00:18.641"></status>
+<status status="PASS" starttime="20200413 13:26:49.924" endtime="20200413 13:26:49.925"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>This is prepaid recharge</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.641" endtime="20200413 13:00:18.641"></status>
+<status status="PASS" starttime="20200413 13:26:49.925" endtime="20200413 13:26:49.925"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn" type="teardown">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>logout from application</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.641" endtime="20200413 13:00:18.641"></status>
+<status status="PASS" starttime="20200413 13:26:49.925" endtime="20200413 13:26:49.925"></status>
 </kw>
-<status status="PASS" starttime="20200413 13:00:18.640" endtime="20200413 13:00:18.641" critical="yes"></status>
+<status status="PASS" starttime="20200413 13:26:49.924" endtime="20200413 13:26:49.926" critical="yes"></status>
 </test>
 <test id="s1-t2" name="TC2 postpaid recharge">
 <kw name="Log To Console" library="BuiltIn" type="setup">
@@ -38,23 +38,23 @@
 <arguments>
 <arg>login to application</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.642" endtime="20200413 13:00:18.642"></status>
+<status status="PASS" starttime="20200413 13:26:49.926" endtime="20200413 13:26:49.926"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>this is postpaid recharge</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.643" endtime="20200413 13:00:18.643"></status>
+<status status="PASS" starttime="20200413 13:26:49.926" endtime="20200413 13:26:49.927"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn" type="teardown">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>logout from application</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.643" endtime="20200413 13:00:18.643"></status>
+<status status="PASS" starttime="20200413 13:26:49.927" endtime="20200413 13:26:49.927"></status>
 </kw>
-<status status="PASS" starttime="20200413 13:00:18.642" endtime="20200413 13:00:18.643" critical="yes"></status>
+<status status="PASS" starttime="20200413 13:26:49.926" endtime="20200413 13:26:49.927" critical="yes"></status>
 </test>
 <test id="s1-t3" name="TC3 Search">
 <kw name="Log To Console" library="BuiltIn" type="setup">
@@ -62,23 +62,23 @@
 <arguments>
 <arg>login to application</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.644" endtime="20200413 13:00:18.644"></status>
+<status status="PASS" starttime="20200413 13:26:49.928" endtime="20200413 13:26:49.928"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>this is search test Cases</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.645" endtime="20200413 13:00:18.645"></status>
+<status status="PASS" starttime="20200413 13:26:49.928" endtime="20200413 13:26:49.928"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn" type="teardown">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>logout from application</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.645" endtime="20200413 13:00:18.646"></status>
+<status status="PASS" starttime="20200413 13:26:49.929" endtime="20200413 13:26:49.929"></status>
 </kw>
-<status status="PASS" starttime="20200413 13:00:18.644" endtime="20200413 13:00:18.646" critical="yes"></status>
+<status status="PASS" starttime="20200413 13:26:49.927" endtime="20200413 13:26:49.929" critical="yes"></status>
 </test>
 <test id="s1-t4" name="TC4 advanced search">
 <kw name="Log To Console" library="BuiltIn" type="setup">
@@ -86,32 +86,32 @@
 <arguments>
 <arg>login to application</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.646" endtime="20200413 13:00:18.647"></status>
+<status status="PASS" starttime="20200413 13:26:49.930" endtime="20200413 13:26:49.930"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>this is a search adv case</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.647" endtime="20200413 13:00:18.647"></status>
+<status status="PASS" starttime="20200413 13:26:49.930" endtime="20200413 13:26:49.930"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn" type="teardown">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>logout from application</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.648" endtime="20200413 13:00:18.648"></status>
+<status status="PASS" starttime="20200413 13:26:49.930" endtime="20200413 13:26:49.931"></status>
 </kw>
-<status status="PASS" starttime="20200413 13:00:18.646" endtime="20200413 13:00:18.648" critical="yes"></status>
+<status status="PASS" starttime="20200413 13:26:49.929" endtime="20200413 13:26:49.931" critical="yes"></status>
 </test>
 <kw name="Log To Console" library="BuiltIn" type="teardown">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Closing Browser</arg>
 </arguments>
-<status status="PASS" starttime="20200413 13:00:18.649" endtime="20200413 13:00:18.650"></status>
+<status status="PASS" starttime="20200413 13:26:49.931" endtime="20200413 13:26:49.931"></status>
 </kw>
-<status status="PASS" starttime="20200413 13:00:18.614" endtime="20200413 13:00:18.650"></status>
+<status status="PASS" starttime="20200413 13:26:49.904" endtime="20200413 13:26:49.931"></status>
 </suite>
 <statistics>
 <total>
