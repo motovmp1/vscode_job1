@@ -3,7 +3,7 @@ Documentation  Simple example using SeleniumLibrary
 Library  Selenium2Library
 Library     OperatingSystem
 
-
+# test gihub login
 
 *** Variables ***
 ${browser}  Firefox
@@ -52,3 +52,4 @@ testingradioapplication
     sleep   1    
     # This is close browser step
     close browser
+    sleep  1
