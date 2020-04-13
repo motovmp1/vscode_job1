@@ -3,7 +3,7 @@ Documentation  Simple example using SeleniumLibrary
 Library  Selenium2Library
 Library     OperatingSystem
 
-# test gihub login
+# test gihub 2222
 
 *** Variables ***
 ${browser}  Firefox
